@@ -1,0 +1,20 @@
+{
+    "mothersDayApp": {
+        "greetings" : {
+            "home": {
+                "title": "THANK YOU MOM",
+                "create": "Send wishes to MOM!"
+            },
+            "ref_name": "Your Name",
+            "ref_url": "Custom URL(Leave empty to auto generate)",
+            "deleted": "A For Messages is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete For Messages {{ id }}?"
+            },
+            "detail": {
+                "title": "For Messages"
+            },
+            "messages": "Messages"
+        }
+    }
+}

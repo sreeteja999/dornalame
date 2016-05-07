@@ -1,0 +1,22 @@
+{
+    "mothersDayApp": {
+        "forMessages" : {
+            "home": {
+                "title": "For Messages",
+                "createLabel": "Create a new For Messages",
+                "createOrEditLabel": "Create or edit a For Messages",
+                "search": "Search for For Messages"
+            },
+            "created": "A new For Messages is created with identifier {{ param }}",
+            "updated": "A For Messages is updated with identifier {{ param }}",
+            "deleted": "A For Messages is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete For Messages {{ id }}?"
+            },
+            "detail": {
+                "title": "For Messages"
+            },
+            "messages": "Messages"
+        }
+    }
+}

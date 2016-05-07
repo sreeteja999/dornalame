@@ -1,0 +1,12 @@
+version: '2'
+services:
+    mothersdayapp-postgresql:
+        container_name: mothersdayapp-postgresql
+        image: postgres:9.5.1
+        # volumes:
+        #     - ~/volumes/jhipster/MothersDayApp/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=MothersDayApp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

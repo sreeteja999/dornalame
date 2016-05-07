@@ -1,0 +1,21 @@
+version: '2'
+services:
+    mothersdayapp-app:
+        image: mothersdayapp
+        external_links:
+            - mothersdayapp-postgresql:postgresql
+            - mothersdayapp-elasticsearch:elasticsearch
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/MothersDayApp
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=elasticsearch:9300
+        ports:
+            - 8080:8080
+    mothersdayapp-postgresql:
+        extends:
+            file: postgresql.yml
+            service: mothersdayapp-postgresql
+    mothersdayapp-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: mothersdayapp-elasticsearch

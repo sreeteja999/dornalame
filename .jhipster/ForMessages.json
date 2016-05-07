@@ -1,0 +1,14 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "messages",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160506174128",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "for_messages",
+    "pagination": "no"
+}

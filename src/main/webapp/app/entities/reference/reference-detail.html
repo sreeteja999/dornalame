@@ -1,0 +1,21 @@
+
+<div>
+    <h2><span translate="mothersDayApp.reference.detail.title">Reference</span> {{vm.reference.id}}</h2>
+    <hr>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="mothersDayApp.reference.ref_name">Ref Name</span></dt>
+        <dd>
+            <span>{{vm.reference.ref_name}}</span>
+        </dd>
+        <dt><span translate="mothersDayApp.reference.ref_url">Ref Url</span></dt>
+        <dd>
+            <span>{{vm.reference.ref_url}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
