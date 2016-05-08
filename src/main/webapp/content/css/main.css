@@ -328,6 +328,7 @@ ui bootstrap tweaks
 
 #thanknote {
     color: #f35626;
+    text-align: center;
     background-image: -webkit-linear-gradient(92deg, #f35e03, #f833fe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -342,7 +343,7 @@ ui bootstrap tweaks
 
 @media (min-width: 650px) {
     .mega {
-        font-size: 6rem;
+        font-size: 4rem;
         line-height: 1;
     }
 }
@@ -360,11 +361,7 @@ ui bootstrap tweaks
     -webkit-animation: zoomInLeft 7s;
 }
 
-#table-greet{
-    max-width: 4000px;
-    max-height: 1280px;
-
-}
+.magic {}
 
 #msg1 {
     text-align: center;
@@ -373,7 +370,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 12s;
+    -webkit-animation: zoomInRight 12s;
 }
 #msg2 {
     text-align: center;
@@ -382,7 +379,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 18s;
+    -webkit-animation: zoomInLeft 18s ;
 }
 #msg3 {
     text-align: center;
@@ -391,7 +388,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 25s;
+    -webkit-animation: zoomInRight 25s;
 }
 #msg4 {
     text-align: center;
@@ -401,7 +398,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 30s;
+    -webkit-animation: zoomInLeft 30s;
 }
 #msg5 {
     text-align: center;
@@ -411,7 +408,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 35s;
+    -webkit-animation: zoomInRight 35s;
 }
 #msg6 {
     text-align: center;
@@ -421,7 +418,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 40s;
+    -webkit-animation: zoomInLeft 40s;
 }
 #msg7 {
      text-align: center;
@@ -431,7 +428,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 45s;
+    -webkit-animation: zoomInRight 45s;
  }
 #msg8 {
     text-align: center;
@@ -441,7 +438,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 50s;
+    -webkit-animation: zoomInLeft 50s;
 }
 #msg9 {
     text-align: center;
@@ -451,7 +448,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 55s;
+    -webkit-animation: zoomInRight 55s;
 }
 #msg10 {
     text-align: center;
@@ -461,7 +458,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 60s;
+    -webkit-animation: zoomInLeft 60s;
 }
 #msg11 {
     text-align: center;
@@ -471,7 +468,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInLeft 65s;
+    -webkit-animation: zoomInRight 65s;
 }
 
 #msg12 {
@@ -482,7 +479,7 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: bounceInRight 70s;
+    -webkit-animation: zoomInLeft 70s;
 }
 
 #msg13 {
@@ -493,9 +490,8 @@ ui bootstrap tweaks
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
-    -webkit-animation: rotateInUpLeft 75s;
+    -webkit-animation: flipInX 75s;
 }
-
 
 /*-----------------------------------*\
   $ANIMATIONS
