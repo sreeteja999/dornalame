@@ -89,7 +89,7 @@ Main page styles
     display: inline-block;
     width: 347px;
     height: 497px;
-    background: url("../images/hipster.png") no-repeat center top;
+    background: url("../images/Mothers-Day-Image.jpg") no-repeat center top;
     background-size: contain;
 }
 
@@ -327,45 +327,186 @@ ui bootstrap tweaks
 }
 
 #thanknote {
-    text-size: 150px;
-    text-align: center;
-    -webkit-animation-duration: 1s;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35e03, #f833fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
     -webkit-animation-delay: 2s;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation: zoomInLeft 3s linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation: pulse 1s infinite;
+    text-align: justify;
+
 }
 
-#table-greet {
+@media (min-width: 650px) {
+    .mega {
+        font-size: 6rem;
+        line-height: 1;
+    }
+}
+
+.site__header {
+    -webkit-animation: rollIn 1s;
+}
+
+.for {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #3736f3, #fe3d58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: zoomInLeft 7s;
+}
+
+#table-greet{
+    max-width: 4000px;
+    max-height: 1280px;
+
+}
+
+#msg1 {
     text-align: center;
-    text-size: 80px;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1s;
+    font-size: 22px;
+    background-image: -webkit-linear-gradient(92deg, #f33d19, #1237fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 12s;
 }
-/*
+#msg2 {
+    text-align: center;
+    font-size: 22px;
+    background-image: -webkit-linear-gradient(92deg, #f39803, #d41afe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 18s;
+}
+#msg3 {
+    text-align: center;
+    font-size: 22px;
+    background-image: -webkit-linear-gradient(92deg, #2d57f3, #13fe3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 25s;
+}
+#msg4 {
+    text-align: center;
+    font-size: 22px;
 
-#greetins-dev {
-    background: linear-gradient(270deg, #5d2466, #536624, #d5653a);
-    background-size: 600% 600%;
+    background-image: -webkit-linear-gradient(92deg,#f35626, #c81cfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 30s;
+}
+#msg5 {
+    text-align: center;
+    font-size: 22px;
 
-    -webkit-animation: greeting 30s ease infinite;
-    -moz-animation: greeting 30s ease infinite;
-    animation: greeting 30s ease infinite;
+    background-image: -webkit-linear-gradient(92deg, #f34aee, #05fe12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 35s;
+}
+#msg6 {
+    text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #9fcbf3, #000bfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 40s;
+}
+#msg7 {
+     text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #f302e6, #73edfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 45s;
+ }
+#msg8 {
+    text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #e3f35d, #821afe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 50s;
+}
+#msg9 {
+    text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #00f35d, #91eafe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 55s;
+}
+#msg10 {
+    text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #f3472b, #d7b6fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 60s;
+}
+#msg11 {
+    text-align: center;
+    font-size: 24px;
+
+    background-image: -webkit-linear-gradient(92deg, #8b0df3,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInLeft 65s;
+}
+
+#msg12 {
+    text-align: center;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #8ad4f3,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: bounceInRight 70s;
+}
+
+#msg13 {
+    text-align: right;
+    font-size: 22px;
+
+    background-image: -webkit-linear-gradient(92deg, #8b0df3, #1d1efe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -webkit-animation: rotateInUpLeft 75s;
 }
 
 
+/*-----------------------------------*\
+  $ANIMATIONS
+\*-----------------------------------*/
 
-@-webkit-keyframes greeting {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
 }
-@-moz-keyframes greeting {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes greeting {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-*/

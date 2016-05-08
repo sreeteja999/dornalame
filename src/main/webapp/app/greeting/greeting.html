@@ -1,63 +1,45 @@
-<div id="greetins-dev">
-    <h2 translate="mothersDayApp.greetings.home.title" id="thanknote" class="animated pulse">For Messages</h2>
+<div id="greetins-dev" class="site__header">
+
     <jhi-alert></jhi-alert>
-    <div id="table-greet" align="center">
-        <ul ng-bind="gm.greetings[0].messages"  id="msg1" class="animated lightSpeedIn" ng-init=""></ul>
-        <ul ng-bind="gm.greetings[1].messages"  id="msg2" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[2].messages"  id="msg3" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[3].messages"  id="msg4" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[4].messages"  id="msg5" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[5].messages"  id="msg6" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[6].messages"  id="msg7" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[7].messages"  id="msg8" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[8].messages"  id="msg9" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[9].messages"  id="msg10" class="animated lightSpeedIn"></ul>
-        <ul ng-bind="gm.greetings[10].messages"  id="msg11" class="animated lightSpeedIn"></ul>
-    </div>
+    <div id="table-greet" align="center" style="justify-content:center;align-items:center;">
+        <h2 id="thanknote" class="mega" >THANK YOU MOM</h2>
 
-<form name="editForm" role="form" novalidate ng-submit="vm.save()" show-validation>
-
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
-                ng-click="vm.clear()">&times;</button>
-        <h4 class="modal-title" id="myReferenceLabel" translate="mothersDayApp.greetings.home.create">Create or edit a Reference</h4>
+        <ul>
+            <span id="for" style="display: block;"></span><h4 class="for mega">for</h4>
+            <ul id="msg1" class="" ng-bind="gm.greetings[0].messages">"Giving me hope"</ul>
+            <ul id="msg2" class="" ng-bind="gm.greetings[1].messages">"Supporting my decisions"</ul>
+            <ul id="msg3" class="" ng-bind="gm.greetings[2].messages">"Grounding me, because it taught me right from wrong"</ul>
+            <ul id="msg4" class="" ng-bind="gm.greetings[3].messages">"Wiping away my tears, and telling me everything will be ok"</ul>
+            <ul id="msg5" class="" ng-bind="gm.greetings[4].messages">"Letting me have the last piece of cake, when I know you secretly wanted it"</ul>
+            <ul id="msg6" class="" ng-bind="gm.greetings[5].messages">"Smiling even when, deep down, you didn't want to. Because your smile makes everything okay"</ul>
+            <ul id="msg7" class="" ng-bind="gm.greetings[6].messages">"Lecturing me about watching my money and then convincing me to go ahead and get the shoes"</ul>
+            <ul id="msg8" class="" ng-bind="gm.greetings[7].messages">"Your strength, because, little did you know, you gave that strength to me"</ul>
+            <ul id="msg9" class="" ng-bind="gm.greetings[8].messages">"Understanding, even when it wasn't the easiest"</ul>
+            <ul id="msg10" class="" ng-bind="gm.greetings[9].messages">"The countless nights you put me to sleep"</ul>
+            <ul id="msg11" class="" ng-bind="gm.greetings[10].messages">"FINALLY"</ul>
+            <ul id="msg12" class="" ng-bind="gm.greetings[11].messages">Thank you mom "for such a wonderful life"</ul>
+            <ul id="msg13" class="" ng-bind="gm.greetings[12].messages">- Your Kid(forever)</ul>
+        </ul>
     </div>
-    <div class="modal-body">
-        <jhi-alert-error></jhi-alert-error>
-        <div class="form-group" ng-show="vm.reference.id">
-            <label for="id" translate="global.field.id">ID</label>
-            <input type="text" class="form-control" id="id" name="id"
-                   ng-model="vm.reference.id" readonly />
-        </div>
-        <div class="form-group">
-            <label class="control-label" translate="mothersDayApp.greetings.ref_name" for="field_ref_name">Ref Name</label>
-            <input type="text" class="form-control" name="ref_name" id="field_ref_name"
-                   ng-model="vm.reference.ref_name"
-                   required />
-            <div ng-show="editForm.ref_name.$invalid">
-                <p class="help-block"
-                   ng-show="editForm.ref_name.$error.required" translate="entity.validation.required">
-                    This field is required.
-                </p>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="control-label" translate="mothersDayApp.greetings.ref_url" for="field_ref_url">Ref Url</label>
-            <input type="text" class="form-control" name="ref_url" id="field_ref_url"
-                   ng-model="vm.reference.ref_url"
-            />
-        </div>
+    <script>
+        $(document).ready(function () {
+            var end = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            var magic = 'background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 60s infinite linear;';
+/*            setTimeout(function () {
+                $('#msg1').addClass('animated fadeOutDown');
+                $('#msg2').addClass('animated fadeInDown');
+                $('#msg3').addClass('animated fadeInDown');
+                $('#msg4').addClass('animated fadeInDown');
+                $('#msg5').addClass('animated fadeInDown');
+                $('#msg6').addClass('animated fadeInDown');
+                $('#msg7').addClass('animated fadeInDown');
+                $('#msg8').addClass('animated fadeInDown');
+                $('#msg9').addClass('animated fadeInDown');
+                $('#msg10').addClass('animated fadeInDown');
+                $('#msg11').addClass('animated fadeInDown');
+            },5000);*/
 
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
-            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
-        </button>
-        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
-            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
-        </button>
-    </div>
 
-    <p id="publiclink" >https://dornalame.heroku.com/{{vm.reference.id}}/{{vm.reference.ref_name}}/{{vm.reference.ref_url}}</p>
-</form>
+        });
+    </script>
 </div>

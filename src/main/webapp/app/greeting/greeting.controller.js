@@ -1,6 +1,5 @@
 (function() {
     'use strict';
-
     angular
         .module('mothersDayApp')
         .controller('GreetingsController', GreetingsController);
@@ -16,12 +15,11 @@
             });
         };
         gm.loadAll();
-    }
 
-    function init(){
-        $timeout(function () {
-        },2000);
+        gm.init = function () {
+           var elem = angular.element(document.querySelector('#msg1'));
+            elem.alert('animated shake');
+        }
     }
-
 
 })();
